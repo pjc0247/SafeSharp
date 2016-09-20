@@ -5,7 +5,7 @@ SafeSharp
 * [x] 어디서
 * [ ] 누가
 * [ ] 무어를
- 
+
 ```
 System.Collections.Generic.KeyNotFoundException: 지정한 키가 사전에 없습니다.
    위치: System.Collections.Generic.Dictionary`2.get_Item(TKey key)
@@ -34,3 +34,19 @@ __KeyNotFoundException__<br>
 
 * [x] Nougat
 * [x] Muautteel 
+
+Features
+----
+
+* Try
+
+    ```cs
+    var a = Try(() => dic["a"], 0);
+    ```
+    
+* WriteLine
+
+    ```cs
+    Console.WriteLine(dic["a"]);
+    Safe.WriteLine(dic["a"]);
+    ```
