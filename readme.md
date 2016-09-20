@@ -50,3 +50,9 @@ Features
     Console.WriteLine(dic["a"]);
     Safe.WriteLine(dic["a"]);
     ```
+
+* Transform : 익셉션을 다른 익셉션으로 변환
+
+    ```cs
+    Rini(() => dic["a"], e => new Exception());
+    ```
