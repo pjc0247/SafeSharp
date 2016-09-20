@@ -15,7 +15,7 @@ Usage
 ----
 ```cs
 var ret =
-    Try1( expression, defaultValue );
+    Try( expression, defaultValue );
 ```
 <br>
 <br>
