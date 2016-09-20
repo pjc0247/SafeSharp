@@ -15,7 +15,7 @@ Usage
 ----
 ```cs
 var ret =
-    Try1( expression, defaultValue );
+    Try( expression, defaultValue );
 ```
 <br>
 <br>
@@ -34,6 +34,7 @@ __KeyNotFoundException__<br>
 
 * [x] Nougat
 * [x] Muautteel 
+<<<<<<< HEAD
 
 Features
 ----
@@ -50,3 +51,5 @@ Features
     Console.WriteLine(dic["a"]);
     Safe.WriteLine(dic["a"]);
     ```
+=======
+>>>>>>> origin/master
